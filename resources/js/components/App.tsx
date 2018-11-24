@@ -1,7 +1,6 @@
-import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
+import * as React from 'react';
 
-export default class Example extends Component {
+export default class App extends React.Component {
     render() {
         return (
             <div className="container">
@@ -19,8 +18,4 @@ export default class Example extends Component {
             </div>
         );
     }
-}
-
-if (document.getElementById('app')) {
-    ReactDOM.render(<Example />, document.getElementById('app'));
 }
