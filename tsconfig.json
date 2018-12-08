@@ -2,8 +2,8 @@
   "compilerOptions": {
     "sourceMap": true,
     "noImplicitAny": true,
-    "module": "commonjs",
-    "target": "es5",
+    "module": "es2015",
+    "target": "es6",
     "jsx": "react"
   }
 }

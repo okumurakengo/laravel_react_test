@@ -32,4 +32,7 @@ mix.react('resources/js/app.js', 'public/js')
         resolve: {
             extensions: ['*', '.js', '.jsx', '.ts', '.tsx'],
         },
+    })
+    .babelConfig({
+        "presets": ["es2015", "react", "stage-0"],
     });
